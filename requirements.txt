@@ -1,9 +1,7 @@
 Flask                # Web framework
 Werkzeug             # Required by Flask
-setuptools
 numpy               # Numerical operations
 pandas               # Data manipulation and analysis
 scikit-learn       # Machine learning library
-gunicorn           # WSGI server for deployment
 matplotlib           # For plotting and visualizations
 flask-cors          # For handling Cross-Origin Resource Sharing (CORS)
