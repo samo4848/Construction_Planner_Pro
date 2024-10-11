@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3D Floor Plan Generation</title>
+  <style>
+    a{
+      text-decoration: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: black;
+      color: #ff901b;
+    }
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #e200f7;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-top: 0;
+      color: #333;
+    }
+    
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out; 
+    }
+    
+    .card:hover {
+      transform: scale(1.05); 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .card:active {
+      transform: scale(0.95); 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .card-content {
+      padding:20px;
+      background-color: black;
+      border:#f2f2f2;
+    }
+    
+    .card-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color:#6aecff;
+    }
+    
+    .card-description {
+      color: #a5db55;
+    }
+    
+    .button {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      background-color: #3e8e41;
+    }
+    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body style="background-image: url('/client/static/images/bg.jpeg');">
+  <div class="container">
+    <h1>3D Floor Plan</h1>
+    <a href="/client/templates/floor_plan.html">
+    <div class="card">
+      <img src="/client/static/images/1BHK.jpg" alt="Cost estimation">
+      <div class="card-content">
+        <h2 class="card-title">Generate 1BHK 3D Model</h2>
+        <p class="card-description">
+            <p class="card-description">3D Visualization of the multiple categories of the houses is available here based on BHK values and preferred designs</p>
+        </p>
+      </div>
+    </div>
+  </a>
+
+    <a href="/client/templates/2BHK_floorplan.html">
+    <div class="card">
+      <img src="/client/static/images/2BHK.jpg" alt="3D Viewer1">
+      <div class="card-content">
+        <h2 class="card-title">Generate 2BHK 3D Model</h2>
+        <p class="card-description">3D Visualization of the multiple categories of the houses is available here based on BHK values and preferred designs</p>
+      </div>
+    </div>
+    
+    <a href="/client/templates/3BHK_floorplan.html">
+        <div class="card">
+          <img src="/client/static/images/3BHK.jpeg" alt="3D Viewer">
+          <div class="card-content">
+            <h2 class="card-title">Generate 3BHK 3D model</h2>
+            <p class="card-description">3D Visualization of the multiple categories of the houses is available here based on BHK values and preferred designs</p>
+          </div>
+        </div>
+
+</a>
