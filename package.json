@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm run server/server.py"
+    "dev" : "vite",
+    "build" : "vite build"
   },
   "keywords": [],
   "author": "",
