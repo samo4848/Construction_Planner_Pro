@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/landing_page.html"
+      "dest": "/client/templates/index.html"
     }
   ]
 }
